@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Game"
+title:  "journal"
 date:   2016-02-03 15:08:10 -0500
 img: img/portfolio/game.png
+icon: "&#xf02d;"
 modalID: modalGame
 category: Design
 ---

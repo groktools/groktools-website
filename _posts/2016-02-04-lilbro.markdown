@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Circus"
+title:  "Lilbro"
 date:   2016-02-04 15:08:10 -0500
 img: img/portfolio/circus.png
+icon: "&#xf007;"
 modalID: modalCircus
 category: Design
 ---

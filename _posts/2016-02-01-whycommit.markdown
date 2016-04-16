@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Submarine"
+title:  "whyCommit"
 date:   2016-02-01 15:08:10 -0500
 img: img/portfolio/submarine.png
+icon: "&#xf1d3;&#xf128;"
 modalID: modalSubmarine
 category: Design
 ---

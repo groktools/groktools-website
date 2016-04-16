@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Cabin"
+title:  "flozone"
 date:   2016-02-06 15:08:10 -0500
 img: img/portfolio/cabin.png
+icon: "&#xf197;"
 modalID: modalCabin
 category: Design
 ---
