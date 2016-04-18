@@ -4,11 +4,19 @@ title:  "flozone"
 date:   2016-02-06 15:08:10 -0500
 img: img/portfolio/cabin.png
 icon: "&#xf197;"
-modalID: modalCabin
-category: Design
+modalID: modalFlozone
+category: Tools
 ---
-Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons][flat-icons-link]. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+An Atom toolbar to help you achieve flow state (aka "the Zone") and stay there through interruptions.
 
-In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!
+# Why flozone
+As found by [Parnin](http://blog.ninlabs.com/2013/01/programmer-interrupted/):
+>Episodic memory is the recollection of past events.
 
-[flat-icons-link]: https://sellfy.com/p/8Q9P/jV3VZ/
+>Software developers continually encounter new learning experiences about their craft. Retaining and making use of those such acquired knowledge requires that developers are able to recollect those experiences from their episodic memory. When recalling from episodic memory, developers commonly experience failures that limit their ability to recall essential details or recollect the key events. For example, a developer may forget the changes they performed for a programming task, or forget details such as a the blog post that was used for implementing a part of the task.
+
+`flozone` takes this idea to the simplest manifestation - a toolbar that uses the familiar media player metaphor to help you remember what you're doing and help you tide through interruptions
+
+Github: [https://github.com/groktools/git-authors](https://github.com/groktools/flozone)
+
+Atom Package: [https://atom.io/packages/git-authors](https://atom.io/packages/flozone)

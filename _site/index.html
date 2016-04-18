@@ -12,20 +12,20 @@
 ">
 
     <!-- Bootswatch Core CSS - Served by Start Bootstrap CDN powered by MaxCDN -->
-    <link rel="stylesheet" href="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 
     <!-- Freelancer Theme CSS - Served by Start Bootstrap CDN powered by MaxCDN -->
-    <link rel="stylesheet" href="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/css/freelancer.css">
+    <link rel="stylesheet" href="/css/freelancer.css">
 
     <link rel="canonical" href="http://groktools.org/">
 
     <link rel="alternate" type="application/rss+xml" title="Groktools" href="http://groktools.org /feed.xml ">
 
     <!-- Custom Fonts -->
-    <link href="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    
+    <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/css1.css" rel="stylesheet" type="text/css">
+    <link href="/css/css2.css" rel="stylesheet" type="text/css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -60,13 +60,10 @@
                     <a href="#portfolio">Tools</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#research">Research Links</a>
+                    <a href="#project">Project</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#about">About</a>
-                </li>
-                <li class="page-scroll">
-                    <a href="#contact">Contact</a>
+                    <a href="#research">Research</a>
                 </li>
             </ul>
         </div>
@@ -81,9 +78,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive" src="img/profile.png" alt="">
+                <!-- <img class="img-responsive" src="img/profile.png" alt=""> -->
                 <div class="intro-text">
+                    <span class="fa fa-code fa-5x"></span>
+                    <!-- <span class="fa fa-graduation-cap fa-3x" style="vertical-align:top"></span> -->
+                    <span class="fa fa-lightbulb-o fa-3x" style="vertical-align:top"></span>
                     <span class="name">Groktools</span>
+
                     <hr class="star-light">
                     <span class="skills">Tools to understand your code better
 </span>
@@ -95,6 +96,7 @@
 
 
     <!-- Portfolio Grid Section -->
+<!--  id needs to be "portfolio" for css to work -->
     <section id="portfolio">
         <div class="container">
             <div class="row">
@@ -106,74 +108,86 @@
             <div class="row">
                 
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#modalCabin" class="portfolio-link" data-toggle="modal">
+                        <a href="#modalFlozone" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                    <i class="fa fa-search-plus fa-2x"></i>
                                 </div>
                             </div>
-                            <!-- <img src="/img/portfolio/cabin.png" class="img-responsive" alt=""> -->
-                            <i class="fa" style="font-size:150px;text-align:center">&#xf197;</i><h2>flozone</h2>
+                            <div style="width:100%;height:100%;text-align:center">
+                              <!-- <img src="/img/portfolio/cabin.png" class="img-responsive" alt=""> -->
+                              <span class="fa" style="font-size:80px;text-align:center">&#xf197;</span><h3>flozone</h3>
+                            </div>
                         </a>
                     </div>
                 
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#modalCake" class="portfolio-link" data-toggle="modal">
+                        <a href="#modalRecorder" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                    <i class="fa fa-search-plus fa-2x"></i>
                                 </div>
                             </div>
-                            <!-- <img src="/img/portfolio/cake.png" class="img-responsive" alt=""> -->
-                            <i class="fa" style="font-size:150px;text-align:center">&#xf03d;</i><h2>Recorder</h2>
+                            <div style="width:100%;height:100%;text-align:center">
+                              <!-- <img src="/img/portfolio/cake.png" class="img-responsive" alt=""> -->
+                              <span class="fa" style="font-size:80px;text-align:center">&#xf03d;</span><h3>Recorder</h3>
+                            </div>
                         </a>
                     </div>
                 
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#modalCircus" class="portfolio-link" data-toggle="modal">
+                        <a href="#modalLilbro" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                    <i class="fa fa-search-plus fa-2x"></i>
                                 </div>
                             </div>
-                            <!-- <img src="/img/portfolio/circus.png" class="img-responsive" alt=""> -->
-                            <i class="fa" style="font-size:150px;text-align:center">&#xf007;</i><h2>Lilbro</h2>
+                            <div style="width:100%;height:100%;text-align:center">
+                              <!-- <img src="/img/portfolio/circus.png" class="img-responsive" alt=""> -->
+                              <span class="fa" style="font-size:80px;text-align:center">&#xf007;</span><h3>Lilbro</h3>
+                            </div>
                         </a>
                     </div>
                 
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#modalGame" class="portfolio-link" data-toggle="modal">
+                        <a href="#modalJournal" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                    <i class="fa fa-search-plus fa-2x"></i>
                                 </div>
                             </div>
-                            <!-- <img src="/img/portfolio/game.png" class="img-responsive" alt=""> -->
-                            <i class="fa" style="font-size:150px;text-align:center">&#xf02d;</i><h2>journal</h2>
+                            <div style="width:100%;height:100%;text-align:center">
+                              <!-- <img src="/img/portfolio/game.png" class="img-responsive" alt=""> -->
+                              <span class="fa" style="font-size:80px;text-align:center">&#xf02d;</span><h3>journal</h3>
+                            </div>
                         </a>
                     </div>
                 
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#modalSafe" class="portfolio-link" data-toggle="modal">
+                        <a href="#modalGitAuthors" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                    <i class="fa fa-search-plus fa-2x"></i>
                                 </div>
                             </div>
-                            <!-- <img src="/img/portfolio/safe.png" class="img-responsive" alt=""> -->
-                            <i class="fa" style="font-size:150px;text-align:center">&#xf1d3;&#xf0c0;</i><h2>git authors</h2>
+                            <div style="width:100%;height:100%;text-align:center">
+                              <!-- <img src="/img/portfolio/safe.png" class="img-responsive" alt=""> -->
+                              <span class="fa" style="font-size:80px;text-align:center">&#xf1d3;&#xf0c0;</span><h3>git authors</h3>
+                            </div>
                         </a>
                     </div>
                 
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#modalSubmarine" class="portfolio-link" data-toggle="modal">
+                        <a href="#modalWhyCommit" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                    <i class="fa fa-search-plus fa-2x"></i>
                                 </div>
                             </div>
-                            <!-- <img src="/img/portfolio/submarine.png" class="img-responsive" alt=""> -->
-                            <i class="fa" style="font-size:150px;text-align:center">&#xf1d3;&#xf128;</i><h2>whyCommit</h2>
+                            <div style="width:100%;height:100%;text-align:center">
+                              <!-- <img src="/img/portfolio/submarine.png" class="img-responsive" alt=""> -->
+                              <span class="fa" style="font-size:80px;text-align:center">&#xf1d3;&#xf128;</span><h3>whyCommit</h3>
+                            </div>
                         </a>
                     </div>
                 
@@ -183,40 +197,46 @@
 
 
     <!-- About Section -->
-    <section class="success" id="about">
+    <section class="success" id="project">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h2>About the Project and the Course</h2>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                <div class="col-lg-5">
+                    <p>Groktools is <a href="http://www.github.com/vinodkd">vinodkd</a>'s project submission for the Educational Technology course (CS6460), part of the Georgia Tech OMSCS</p>
+                    <p>Groktools aims to fix gaps in program comprehension by building small tools that dovetail into existing dev workflows.</p>
+                    <p>If you're interested to learn more about the project, a <a href="project-timeline.html">timeline</a> is available, as are <a href="project-artifacts.html">artifacts</a> from the project</p>
                 </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                <div class="col-lg-5 col-lg-offset-1">
+                    <p><a href="http:///www.gatech.edu">Georgia Tech</a>'s <a href="http:///omscs.gatech.edu/">OMSCS program</a> is the first online Masters from a top 5 Grad School</p>
+                    <p><a href="https://www.udacity.com/wiki/ud915/Spring2016/">Educational Technology (CS6460)</a> is an interesting, course that's run by Dr.David Joyner of Georgia Tech via the OMSCS program</p>
+                    <p>Its a <b>mini-PHD</b> essentially, with an initial phase of intense literature study in one of 8-10 Ed Tech topics, followed by either a research or tool development project on a topic that you're narrowed down to. Some really awesome projects are happening there!</p>
                 </div>
             </div>
         </div>
     </section>
 
+
     <!-- About Section -->
-    <section class="success" id="research">
+    <section id="research">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
+                    <h2>Research</h2>
+                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Research</p>
+                <div class="col-lg-6">
+                    <p>As part of the project a lot of research papers, especially from the <a href="http://program-comprehension.org">International Conference on Program Comprehension</a> were read and used.
+                      Here's my <a href="research-papers.html">full list with brief comments on each paper</a>.</p>
                 </div>
-                <div class="col-lg-4">
-                    <p>Research goes here</p>
+                <div class="col-lg-6">
+                    <p>I also looked into quite a few <a href="/os-projects.html">Open source projects</a>.</p>
                 </div>
             </div>
         </div>
@@ -225,39 +245,17 @@
 
     <!-- Footer -->
 <footer class="text-center">
-    <div class="footer-above">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col col-md-4">
-                    <h3>Location</h3>
-                    <p>
-                        <br>,  </p>
-                </div>
-                <div class="footer-col col-md-4">
-                    <h3>Around the Web</h3>
-                    <ul class="list-inline">
-                        
-                        
-                        
-                        <li>
-                            <a href="https://github.com/groktools" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                        </li>
-                        
-                    </ul>
-                </div>
-                <div class="footer-col col-md-4">
-                    <h3>About Groktools</h3>
-                    <p><a href="http://startbootstrap.com">Start Bootstrap</a> is an open source library of Bootstrap themes and templates.</p>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="footer-below">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    Copyright &copy; Your Website 2016
+                    Copyright &copy;  and <a href="https://github.com/vinodkd/">vinodkd</a> 2016
                 </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        Github Org: <a href="https://github.com/groktools/">groktools</a>
+                    </div>
+
             </div>
         </div>
     </div>
@@ -271,7 +269,7 @@
 
 
     
-<div class="portfolio-modal modal fade" id="modalCabin" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="modalFlozone" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
@@ -283,17 +281,29 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
+                        <!-- <img src="/img/portfolio/cabin.png" class="img-responsive img-centered" alt=""> -->
+                        <span class="fa" style="font-size:80px;text-align:center">&#xf197;</span>
                         <h2>flozone</h2>
                         <hr class="star-primary">
-                        <img src="/img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                        <div style="text-align:justify"><p>An Atom toolbar to help you achieve flow state (aka “the Zone”) and stay there through interruptions.</p>
 
-<p>In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!</p>
+<h1 id="why-flozone">Why flozone</h1>
+<p>As found by <a href="http://blog.ninlabs.com/2013/01/programmer-interrupted/">Parnin</a>:
+&gt;Episodic memory is the recollection of past events.</p>
 
+<blockquote>
+  <p>Software developers continually encounter new learning experiences about their craft. Retaining and making use of those such acquired knowledge requires that developers are able to recollect those experiences from their episodic memory. When recalling from episodic memory, developers commonly experience failures that limit their ability to recall essential details or recollect the key events. For example, a developer may forget the changes they performed for a programming task, or forget details such as a the blog post that was used for implementing a part of the task.</p>
+</blockquote>
 
+<p><code class="highlighter-rouge">flozone</code> takes this idea to the simplest manifestation - a toolbar that uses the familiar media player metaphor to help you remember what you’re doing and help you tide through interruptions</p>
+
+<p>Github: <a href="https://github.com/groktools/flozone">https://github.com/groktools/git-authors</a></p>
+
+<p>Atom Package: <a href="https://atom.io/packages/flozone">https://atom.io/packages/git-authors</a></p>
+</div>
                         <ul class="list-inline item-details">
                             <li>Category:
-                                <strong>Design
+                                <strong>Tools
                                     </strong>
                             </li>
                             <li>Date:
@@ -309,7 +319,7 @@
     </div>
 </div>
 
-<div class="portfolio-modal modal fade" id="modalCake" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="modalRecorder" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
@@ -321,17 +331,46 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
+                        <!-- <img src="/img/portfolio/cake.png" class="img-responsive img-centered" alt=""> -->
+                        <span class="fa" style="font-size:80px;text-align:center">&#xf03d;</span>
                         <h2>Recorder</h2>
                         <hr class="star-primary">
-                        <img src="/img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                        <div style="text-align:justify"><p>Record your explorations of code</p>
 
-<p>In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!</p>
+<p><strong>Recorder</strong> is the idea that you should record your interactions with the code you’re trying to understand so that you can replay it later for recall or to share with others.</p>
 
+<h1 id="why-recorder">Why Recorder</h1>
+<p>As found by <a href="https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf">Maalej et al</a> (page 12):
+&gt; 3 Developers interact with the application user interface to test whether the application behaves as expected and to find starting points for further inspection..</p>
 
+<p>The idea, therefore, is to make it easy to record and replay developer interactions with the system under study to make comprehension easier.</p>
+
+<h1 id="the-dream-recordreplay-tool">The dream record/replay tool</h1>
+<p>Ideally, there would be a single tool that would allow you to record and replay. One can imagine a tool that works like so:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>./record --context="Booking ticket" --all-input -o booking_ticket.log
+</code></pre>
+</div>
+
+<p>…which could be played back like so:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>./replay booking_ticket.log
+</code></pre>
+</div>
+
+<p>However, things are not that easy in the real world:
+* <strong>Privacy/Security concerns</strong>:Features such as Keyboard and mouse logging are typically fraught with privacy and security concerns. OSs therefore lock these down, rightfully.
+* <strong>OS constraints</strong>: Since these are typically low level features, each OS implements access to them differently, making integration and abstraction difficult.
+* <strong>Brittle Solution</strong>: Assuming we get past these hurdles, we’re still left with a very brittle solution: recorded data are vey specific to the conditions at the time recording and perfect replay requires a perfect recreation of those conditions.
+* <strong>Aide comprehension</strong>: Assuming we’re able to make a flexible solution, it must still enable comprehension for it to be of use to the developer.</p>
+
+<p>Check out the github repo for more information.</p>
+
+<p>Github: <a href="https://github.com/groktools/recorder">https://github.com/groktools/git-authors</a></p>
+</div>
                         <ul class="list-inline item-details">
                             <li>Category:
-                                <strong>Design
+                                <strong>Tools
                                     </strong>
                             </li>
                             <li>Date:
@@ -347,7 +386,7 @@
     </div>
 </div>
 
-<div class="portfolio-modal modal fade" id="modalCircus" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="modalLilbro" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
@@ -359,17 +398,23 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
+                        <!-- <img src="/img/portfolio/circus.png" class="img-responsive img-centered" alt=""> -->
+                        <span class="fa" style="font-size:80px;text-align:center">&#xf007;</span>
                         <h2>Lilbro</h2>
                         <hr class="star-primary">
-                        <img src="/img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                        <div style="text-align:justify"><p>A userspace tracker for everything you do on your computer while you code.</p>
 
-<p>In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!</p>
+<h1 id="why-lilbro">Why lilbro</h1>
+<p>As found by <a href="https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf">Maalej et al</a> (page 25):
+&gt;…we asked developers whether they would share knowledge if their development environments would automatically capture it. … Overall, respondents are rather willing to share knowledge automatically. More than 85% of respondents would share the context of an encountered problem and actions performed to solve it. About 75% agreed to share other knowledge such as the goal of changing a particular piece of code or sources consulted while solving a particular problem. This kind of knowledge would facilitate program comprehension tasks.</p>
 
+<p><code class="highlighter-rouge">lilbro</code> takes this idea to the simplest and extreme manifestation - a tracker for everything that you could do on a computer so that you can review it later, reflect on it and potentially share it.</p>
 
+<p>Github: <a href="https://github.com/groktools/lilbro">https://github.com/groktools/git-authors</a></p>
+</div>
                         <ul class="list-inline item-details">
                             <li>Category:
-                                <strong>Design
+                                <strong>Tools
                                     </strong>
                             </li>
                             <li>Date:
@@ -385,7 +430,7 @@
     </div>
 </div>
 
-<div class="portfolio-modal modal fade" id="modalGame" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="modalJournal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
@@ -397,17 +442,33 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
+                        <!-- <img src="/img/portfolio/game.png" class="img-responsive img-centered" alt=""> -->
+                        <span class="fa" style="font-size:80px;text-align:center">&#xf02d;</span>
                         <h2>journal</h2>
                         <hr class="star-primary">
-                        <img src="/img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                        <div style="text-align:justify"><p>Store your thoughts about code - in the code!</p>
 
-<p>In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!</p>
+<p><strong>journal</strong> is a simple tool to track your thoughts as you code. It allows you to write memos to yourself (and potentially other team members) to explain the concepts that go into your code better. Or maybe its just notes that dont fit anywhere else or maybe they’re high level todos. You decide!</p>
 
+<h1 id="why-journal">Why journal</h1>
 
+<p>As found by <a href="https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf">Maalej et al</a> (page 27, emphasis mine):
+&gt; Context information also seems to play an important role when supplying the knowledge needs of developers in program comprehension scenarios. For instance, <strong>the context of the task in which the program was developed, including the rationale, the developer’s intention when writing the code, and the intended usage of the program, seems to be frequently needed by developers</strong> (see Finding 4, Finding 20, Finding 23 and Figure 3).
+<strong>Unfortunately, our findings reveal that context information is typically implicit and not captured.</strong> For example, respondents rated missing context of documented knowledge about programs as one of the most frequent knowledge access barriers. Similarly, context switching overhead was rated as one of the most frequent knowledge sharing barriers.</p>
+
+<blockquote>
+  <p><strong>One possible strategy to overcome these barriers is an integrated, context-aware tool support for knowledge exchange: enabling a (semi-) automatically capturing and sharing of knowledge with its context by observing developers’ interactions</strong> [Maalej et al. 2014]. Moreover, insights about the work patterns of developers from this and other studies (e.g., Murphy et al. [2006]; Parnin and Rugaber [2009]) can be used to build personalized tools that are aligned to the workflow of developers. For example a tool that detects the current high-level activity of developers from low-level actions can be used to provide only information that is relevant for the current problem [Roehm and Maalej 2012].</p>
+</blockquote>
+
+<p>This tool latches onto the idea of a context-aware tool that captures and stores the knowledge of the developer <strong>as the code is built</strong> for use by both the primary author and others later.</p>
+
+<p>Github: <a href="https://github.com/groktools/journal">https://github.com/groktools/git-authors</a></p>
+
+<p>Atom Package: <a href="https://atom.io/packages/journal">https://atom.io/packages/git-authors</a></p>
+</div>
                         <ul class="list-inline item-details">
                             <li>Category:
-                                <strong>Design
+                                <strong>Tools
                                     </strong>
                             </li>
                             <li>Date:
@@ -423,7 +484,7 @@
     </div>
 </div>
 
-<div class="portfolio-modal modal fade" id="modalSafe" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="modalGitAuthors" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
@@ -435,17 +496,28 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
+                        <!-- <img src="/img/portfolio/safe.png" class="img-responsive img-centered" alt=""> -->
+                        <span class="fa" style="font-size:80px;text-align:center">&#xf1d3;&#xf0c0;</span>
                         <h2>git authors</h2>
                         <hr class="star-primary">
-                        <img src="/img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                        <div style="text-align:justify"><p><strong>git-authors</strong> is a simple addition to your editor - it displays the authors for a file so that you can contact them if required. Their % contributions are also shown.</p>
 
-<p>In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!</p>
+<h1 id="why-git-authors">Why git-authors</h1>
+<p>As found by <a href="https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf">Maalej et al</a> (page 20):</p>
 
+<blockquote>
+  <p>The more people developers know, the easier they can identify which ex- perience is worth sharing, with whom, and how.</p>
+</blockquote>
 
+<p>A simple Atom plugin bridges this gap by displaying the list of authors along with their percentage contribution to the file by line.</p>
+
+<p>Github: <a href="https://github.com/groktools/git-authors">https://github.com/groktools/git-authors</a></p>
+
+<p>Atom Package: <a href="https://atom.io/packages/git-authors">https://atom.io/packages/git-authors</a></p>
+</div>
                         <ul class="list-inline item-details">
                             <li>Category:
-                                <strong>Design
+                                <strong>Tools
                                     </strong>
                             </li>
                             <li>Date:
@@ -461,7 +533,7 @@
     </div>
 </div>
 
-<div class="portfolio-modal modal fade" id="modalSubmarine" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="modalWhyCommit" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
@@ -473,17 +545,34 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
+                        <!-- <img src="/img/portfolio/submarine.png" class="img-responsive img-centered" alt=""> -->
+                        <span class="fa" style="font-size:80px;text-align:center">&#xf1d3;&#xf128;</span>
                         <h2>whyCommit</h2>
                         <hr class="star-primary">
-                        <img src="/img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                        <div style="text-align:justify"><p>Add a reason for your change in the commit message</p>
 
-<p>In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!</p>
+<h1 id="introduction">Introduction</h1>
+<p><strong>whycommit</strong> is a simple addition to your git workflow - it adds a template for your commit messages that helps you to guide future readers so that they understand your change better.</p>
 
+<p>As found by <a href="https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf">Maalej et al</a> (page 19):</p>
 
+<blockquote>
+  <p>More than half of respondents agreed that they encounter problems at least weekly due to missing knowledge about “why was this code implemented this way”, “what was the developer’s intention when writing this code”.</p>
+</blockquote>
+
+<p><code class="highlighter-rouge">whyCommit</code> helps to bridge this gap and includes:</p>
+
+<ul>
+  <li>A commit message template (<code class="highlighter-rouge">whycommit-template.txt</code>) that requires the author of the change to answer this question for future readers to grok.</li>
+  <li>A bash/bat shell script to install the message template for one repo or for all of them.</li>
+  <li>A bash/bat shell script to install a pre-commit hook preventing commits without a Why section (with an escape hatch for “small” commits detailed below).</li>
+</ul>
+
+<p>Github: <a href="https://github.com/groktools/whycommit">https://github.com/groktools/whycommit</a></p>
+</div>
                         <ul class="list-inline item-details">
                             <li>Category:
-                                <strong>Design
+                                <strong>Tools
                                     </strong>
                             </li>
                             <li>Date:
@@ -498,14 +587,15 @@
         </div>
     </div>
 </div>
+
 
 
     <!-- jQuery -->
 <script src="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/js/jquery.js"></script>
 <!-- Bootstrap Core JavaScript -->
-<script src="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/js/bootstrap.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 <!-- Plugin JavaScript -->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="/js/jquery.easing.min.js"></script>
 <script src="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/js/classie.js"></script>
 <script src="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/js/cbpAnimatedHeader.js"></script>
 <!-- Contact Form JavaScript -->
@@ -518,3 +608,4 @@
   </body>
 
 </html>
+sdsd

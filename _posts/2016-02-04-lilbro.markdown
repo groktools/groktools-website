@@ -4,11 +4,15 @@ title:  "Lilbro"
 date:   2016-02-04 15:08:10 -0500
 img: img/portfolio/circus.png
 icon: "&#xf007;"
-modalID: modalCircus
-category: Design
+modalID: modalLilbro
+category: Tools
 ---
-Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons][flat-icons-link]. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+A userspace tracker for everything you do on your computer while you code.
 
-In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!
+# Why lilbro
+As found by [Maalej et al](https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf) (page 25):
+>...we asked developers whether they would share knowledge if their development environments would automatically capture it. ... Overall, respondents are rather willing to share knowledge automatically. More than 85% of respondents would share the context of an encountered problem and actions performed to solve it. About 75% agreed to share other knowledge such as the goal of changing a particular piece of code or sources consulted while solving a particular problem. This kind of knowledge would facilitate program comprehension tasks.
 
-[flat-icons-link]: https://sellfy.com/p/8Q9P/jV3VZ/
+`lilbro` takes this idea to the simplest and extreme manifestation - a tracker for everything that you could do on a computer so that you can review it later, reflect on it and potentially share it.
+
+Github: [https://github.com/groktools/git-authors](https://github.com/groktools/lilbro)

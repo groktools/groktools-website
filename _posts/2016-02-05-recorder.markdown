@@ -4,11 +4,35 @@ title:  "Recorder"
 date:   2016-02-05 15:08:10 -0500
 img: img/portfolio/cake.png
 icon: "&#xf03d;"
-modalID: modalCake
-category: Design
+modalID: modalRecorder
+category: Tools
 ---
-Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons][flat-icons-link]. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+Record your explorations of code
 
-In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!
+**Recorder** is the idea that you should record your interactions with the code you're trying to understand so that you can replay it later for recall or to share with others.
 
-[flat-icons-link]: https://sellfy.com/p/8Q9P/jV3VZ/
+
+# Why Recorder
+As found by [Maalej et al](https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf) (page 12):
+> 3 Developers interact with the application user interface to test whether the application behaves as expected and to find starting points for further inspection..
+
+The idea, therefore, is to make it easy to record and replay developer interactions with the system under study to make comprehension easier.
+
+# The dream record/replay tool
+Ideally, there would be a single tool that would allow you to record and replay. One can imagine a tool that works like so:
+
+    ./record --context="Booking ticket" --all-input -o booking_ticket.log
+
+...which could be played back like so:
+
+    ./replay booking_ticket.log
+
+However, things are not that easy in the real world:
+* **Privacy/Security concerns**:Features such as Keyboard and mouse logging are typically fraught with privacy and security concerns. OSs therefore lock these down, rightfully.
+* **OS constraints**: Since these are typically low level features, each OS implements access to them differently, making integration and abstraction difficult.
+* **Brittle Solution**: Assuming we get past these hurdles, we're still left with a very brittle solution: recorded data are vey specific to the conditions at the time recording and perfect replay requires a perfect recreation of those conditions.
+* **Aide comprehension**: Assuming we're able to make a flexible solution, it must still enable comprehension for it to be of use to the developer.
+
+Check out the github repo for more information.
+
+Github: [https://github.com/groktools/git-authors](https://github.com/groktools/recorder)

@@ -6,103 +6,188 @@
 </description>
     <link>http://groktools.org/</link>
     <atom:link href="http://groktools.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Apr 2016 09:08:02 -0500</pubDate>
-    <lastBuildDate>Sat, 16 Apr 2016 09:08:02 -0500</lastBuildDate>
+    <pubDate>Sun, 17 Apr 2016 23:24:16 -0500</pubDate>
+    <lastBuildDate>Sun, 17 Apr 2016 23:24:16 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>flozone</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
+        <description>&lt;p&gt;An Atom toolbar to help you achieve flow state (aka “the Zone”) and stay there through interruptions.&lt;/p&gt;
 
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
+&lt;h1 id=&quot;why-flozone&quot;&gt;Why flozone&lt;/h1&gt;
+&lt;p&gt;As found by &lt;a href=&quot;http://blog.ninlabs.com/2013/01/programmer-interrupted/&quot;&gt;Parnin&lt;/a&gt;:
+&amp;gt;Episodic memory is the recollection of past events.&lt;/p&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;Software developers continually encounter new learning experiences about their craft. Retaining and making use of those such acquired knowledge requires that developers are able to recollect those experiences from their episodic memory. When recalling from episodic memory, developers commonly experience failures that limit their ability to recall essential details or recollect the key events. For example, a developer may forget the changes they performed for a programming task, or forget details such as a the blog post that was used for implementing a part of the task.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;flozone&lt;/code&gt; takes this idea to the simplest manifestation - a toolbar that uses the familiar media player metaphor to help you remember what you’re doing and help you tide through interruptions&lt;/p&gt;
+
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/groktools/flozone&quot;&gt;https://github.com/groktools/git-authors&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Atom Package: &lt;a href=&quot;https://atom.io/packages/flozone&quot;&gt;https://atom.io/packages/git-authors&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 06 Feb 2016 14:08:10 -0600</pubDate>
-        <link>http://groktools.org/design/2016/02/06/flozone.html</link>
-        <guid isPermaLink="true">http://groktools.org/design/2016/02/06/flozone.html</guid>
+        <link>http://groktools.org/tools/2016/02/06/flozone.html</link>
+        <guid isPermaLink="true">http://groktools.org/tools/2016/02/06/flozone.html</guid>
         
         
-        <category>Design</category>
+        <category>Tools</category>
         
       </item>
     
       <item>
         <title>Recorder</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
+        <description>&lt;p&gt;Record your explorations of code&lt;/p&gt;
 
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Recorder&lt;/strong&gt; is the idea that you should record your interactions with the code you’re trying to understand so that you can replay it later for recall or to share with others.&lt;/p&gt;
 
+&lt;h1 id=&quot;why-recorder&quot;&gt;Why Recorder&lt;/h1&gt;
+&lt;p&gt;As found by &lt;a href=&quot;https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf&quot;&gt;Maalej et al&lt;/a&gt; (page 12):
+&amp;gt; 3 Developers interact with the application user interface to test whether the application behaves as expected and to find starting points for further inspection..&lt;/p&gt;
+
+&lt;p&gt;The idea, therefore, is to make it easy to record and replay developer interactions with the system under study to make comprehension easier.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-dream-recordreplay-tool&quot;&gt;The dream record/replay tool&lt;/h1&gt;
+&lt;p&gt;Ideally, there would be a single tool that would allow you to record and replay. One can imagine a tool that works like so:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./record --context=&quot;Booking ticket&quot; --all-input -o booking_ticket.log
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;…which could be played back like so:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./replay booking_ticket.log
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;However, things are not that easy in the real world:
+* &lt;strong&gt;Privacy/Security concerns&lt;/strong&gt;:Features such as Keyboard and mouse logging are typically fraught with privacy and security concerns. OSs therefore lock these down, rightfully.
+* &lt;strong&gt;OS constraints&lt;/strong&gt;: Since these are typically low level features, each OS implements access to them differently, making integration and abstraction difficult.
+* &lt;strong&gt;Brittle Solution&lt;/strong&gt;: Assuming we get past these hurdles, we’re still left with a very brittle solution: recorded data are vey specific to the conditions at the time recording and perfect replay requires a perfect recreation of those conditions.
+* &lt;strong&gt;Aide comprehension&lt;/strong&gt;: Assuming we’re able to make a flexible solution, it must still enable comprehension for it to be of use to the developer.&lt;/p&gt;
+
+&lt;p&gt;Check out the github repo for more information.&lt;/p&gt;
+
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/groktools/recorder&quot;&gt;https://github.com/groktools/git-authors&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 Feb 2016 14:08:10 -0600</pubDate>
-        <link>http://groktools.org/design/2016/02/05/recorder.html</link>
-        <guid isPermaLink="true">http://groktools.org/design/2016/02/05/recorder.html</guid>
+        <link>http://groktools.org/tools/2016/02/05/recorder.html</link>
+        <guid isPermaLink="true">http://groktools.org/tools/2016/02/05/recorder.html</guid>
         
         
-        <category>Design</category>
+        <category>Tools</category>
         
       </item>
     
       <item>
         <title>Lilbro</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
+        <description>&lt;p&gt;A userspace tracker for everything you do on your computer while you code.&lt;/p&gt;
 
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
+&lt;h1 id=&quot;why-lilbro&quot;&gt;Why lilbro&lt;/h1&gt;
+&lt;p&gt;As found by &lt;a href=&quot;https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf&quot;&gt;Maalej et al&lt;/a&gt; (page 25):
+&amp;gt;…we asked developers whether they would share knowledge if their development environments would automatically capture it. … Overall, respondents are rather willing to share knowledge automatically. More than 85% of respondents would share the context of an encountered problem and actions performed to solve it. About 75% agreed to share other knowledge such as the goal of changing a particular piece of code or sources consulted while solving a particular problem. This kind of knowledge would facilitate program comprehension tasks.&lt;/p&gt;
 
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;lilbro&lt;/code&gt; takes this idea to the simplest and extreme manifestation - a tracker for everything that you could do on a computer so that you can review it later, reflect on it and potentially share it.&lt;/p&gt;
+
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/groktools/lilbro&quot;&gt;https://github.com/groktools/git-authors&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 04 Feb 2016 14:08:10 -0600</pubDate>
-        <link>http://groktools.org/design/2016/02/04/lilbro.html</link>
-        <guid isPermaLink="true">http://groktools.org/design/2016/02/04/lilbro.html</guid>
+        <link>http://groktools.org/tools/2016/02/04/lilbro.html</link>
+        <guid isPermaLink="true">http://groktools.org/tools/2016/02/04/lilbro.html</guid>
         
         
-        <category>Design</category>
+        <category>Tools</category>
         
       </item>
     
       <item>
         <title>journal</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
+        <description>&lt;p&gt;Store your thoughts about code - in the code!&lt;/p&gt;
 
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;journal&lt;/strong&gt; is a simple tool to track your thoughts as you code. It allows you to write memos to yourself (and potentially other team members) to explain the concepts that go into your code better. Or maybe its just notes that dont fit anywhere else or maybe they’re high level todos. You decide!&lt;/p&gt;
 
+&lt;h1 id=&quot;why-journal&quot;&gt;Why journal&lt;/h1&gt;
+
+&lt;p&gt;As found by &lt;a href=&quot;https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf&quot;&gt;Maalej et al&lt;/a&gt; (page 27, emphasis mine):
+&amp;gt; Context information also seems to play an important role when supplying the knowledge needs of developers in program comprehension scenarios. For instance, &lt;strong&gt;the context of the task in which the program was developed, including the rationale, the developer’s intention when writing the code, and the intended usage of the program, seems to be frequently needed by developers&lt;/strong&gt; (see Finding 4, Finding 20, Finding 23 and Figure 3).
+&lt;strong&gt;Unfortunately, our findings reveal that context information is typically implicit and not captured.&lt;/strong&gt; For example, respondents rated missing context of documented knowledge about programs as one of the most frequent knowledge access barriers. Similarly, context switching overhead was rated as one of the most frequent knowledge sharing barriers.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;One possible strategy to overcome these barriers is an integrated, context-aware tool support for knowledge exchange: enabling a (semi-) automatically capturing and sharing of knowledge with its context by observing developers’ interactions&lt;/strong&gt; [Maalej et al. 2014]. Moreover, insights about the work patterns of developers from this and other studies (e.g., Murphy et al. [2006]; Parnin and Rugaber [2009]) can be used to build personalized tools that are aligned to the workflow of developers. For example a tool that detects the current high-level activity of developers from low-level actions can be used to provide only information that is relevant for the current problem [Roehm and Maalej 2012].&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This tool latches onto the idea of a context-aware tool that captures and stores the knowledge of the developer &lt;strong&gt;as the code is built&lt;/strong&gt; for use by both the primary author and others later.&lt;/p&gt;
+
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/groktools/journal&quot;&gt;https://github.com/groktools/git-authors&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Atom Package: &lt;a href=&quot;https://atom.io/packages/journal&quot;&gt;https://atom.io/packages/git-authors&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 03 Feb 2016 14:08:10 -0600</pubDate>
-        <link>http://groktools.org/design/2016/02/03/journal.html</link>
-        <guid isPermaLink="true">http://groktools.org/design/2016/02/03/journal.html</guid>
+        <link>http://groktools.org/tools/2016/02/03/journal.html</link>
+        <guid isPermaLink="true">http://groktools.org/tools/2016/02/03/journal.html</guid>
         
         
-        <category>Design</category>
+        <category>Tools</category>
         
       </item>
     
       <item>
         <title>git authors</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;git-authors&lt;/strong&gt; is a simple addition to your editor - it displays the authors for a file so that you can contact them if required. Their % contributions are also shown.&lt;/p&gt;
 
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
+&lt;h1 id=&quot;why-git-authors&quot;&gt;Why git-authors&lt;/h1&gt;
+&lt;p&gt;As found by &lt;a href=&quot;https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf&quot;&gt;Maalej et al&lt;/a&gt; (page 20):&lt;/p&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;The more people developers know, the easier they can identify which ex- perience is worth sharing, with whom, and how.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A simple Atom plugin bridges this gap by displaying the list of authors along with their percentage contribution to the file by line.&lt;/p&gt;
+
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/groktools/git-authors&quot;&gt;https://github.com/groktools/git-authors&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Atom Package: &lt;a href=&quot;https://atom.io/packages/git-authors&quot;&gt;https://atom.io/packages/git-authors&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 02 Feb 2016 14:08:10 -0600</pubDate>
-        <link>http://groktools.org/design/2016/02/02/git-authors.html</link>
-        <guid isPermaLink="true">http://groktools.org/design/2016/02/02/git-authors.html</guid>
+        <link>http://groktools.org/tools/2016/02/02/git-authors.html</link>
+        <guid isPermaLink="true">http://groktools.org/tools/2016/02/02/git-authors.html</guid>
         
         
-        <category>Design</category>
+        <category>Tools</category>
         
       </item>
     
       <item>
         <title>whyCommit</title>
-        <description>&lt;p&gt;Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!&lt;/p&gt;
+        <description>&lt;p&gt;Add a reason for your change in the commit message&lt;/p&gt;
 
-&lt;p&gt;In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!&lt;/p&gt;
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;whycommit&lt;/strong&gt; is a simple addition to your git workflow - it adds a template for your commit messages that helps you to guide future readers so that they understand your change better.&lt;/p&gt;
 
+&lt;p&gt;As found by &lt;a href=&quot;https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf&quot;&gt;Maalej et al&lt;/a&gt; (page 19):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;More than half of respondents agreed that they encounter problems at least weekly due to missing knowledge about “why was this code implemented this way”, “what was the developer’s intention when writing this code”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;whyCommit&lt;/code&gt; helps to bridge this gap and includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A commit message template (&lt;code class=&quot;highlighter-rouge&quot;&gt;whycommit-template.txt&lt;/code&gt;) that requires the author of the change to answer this question for future readers to grok.&lt;/li&gt;
+  &lt;li&gt;A bash/bat shell script to install the message template for one repo or for all of them.&lt;/li&gt;
+  &lt;li&gt;A bash/bat shell script to install a pre-commit hook preventing commits without a Why section (with an escape hatch for “small” commits detailed below).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/groktools/whycommit&quot;&gt;https://github.com/groktools/whycommit&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Feb 2016 14:08:10 -0600</pubDate>
-        <link>http://groktools.org/design/2016/02/01/whycommit.html</link>
-        <guid isPermaLink="true">http://groktools.org/design/2016/02/01/whycommit.html</guid>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 -0600</pubDate>
+        <link>http://groktools.org/tools/2016/02/01/whycommit.html</link>
+        <guid isPermaLink="true">http://groktools.org/tools/2016/02/01/whycommit.html</guid>
         
         
-        <category>Design</category>
+        <category>Tools</category>
         
       </item>
     

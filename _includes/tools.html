@@ -1,4 +1,5 @@
 <!-- Portfolio Grid Section -->
+<!--  id needs to be "portfolio" for css to work -->
     <section id="portfolio">
         <div class="container">
             <div class="row">
@@ -13,11 +14,13 @@
                         <a href="#{{ post.modalID }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
+                                    <i class="fa fa-search-plus fa-2x"></i>
                                 </div>
                             </div>
-                            <!-- <img src="{{ site.baseurl }}/{{ post.img }}" class="img-responsive" alt=""> -->
-                            <i class="fa" style="font-size:150px;text-align:center">{{post.icon}}</i><h2>{{post.title}}</h2>
+                            <div style="width:100%;height:100%;text-align:center">
+                              <!-- <img src="{{ site.baseurl }}/{{ post.img }}" class="img-responsive" alt=""> -->
+                              <span class="fa" style="font-size:80px;text-align:center">{{post.icon}}</span><h3>{{post.title}}</h3>
+                            </div>
                         </a>
                     </div>
                 {% endfor %}
