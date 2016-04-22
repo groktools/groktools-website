@@ -6,8 +6,8 @@
 </description>
     <link>http://groktools.org/</link>
     <atom:link href="http://groktools.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Apr 2016 06:51:07 -0500</pubDate>
-    <lastBuildDate>Fri, 22 Apr 2016 06:51:07 -0500</lastBuildDate>
+    <pubDate>Fri, 22 Apr 2016 09:41:53 -0500</pubDate>
+    <lastBuildDate>Fri, 22 Apr 2016 09:41:53 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -15,8 +15,11 @@
         <description>&lt;p&gt;An Atom toolbar to help you achieve flow state (aka “the Zone”) and stay there through interruptions.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-flozone&quot;&gt;Why flozone&lt;/h1&gt;
-&lt;p&gt;As found by &lt;a href=&quot;http://blog.ninlabs.com/2013/01/programmer-interrupted/&quot;&gt;Parnin&lt;/a&gt;:
-&amp;gt;Episodic memory is the recollection of past events.&lt;/p&gt;
+&lt;p&gt;As found by &lt;a href=&quot;http://blog.ninlabs.com/2013/01/programmer-interrupted/&quot;&gt;Parnin&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Episodic memory is the recollection of past events.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Software developers continually encounter new learning experiences about their craft. Retaining and making use of those such acquired knowledge requires that developers are able to recollect those experiences from their episodic memory. When recalling from episodic memory, developers commonly experience failures that limit their ability to recall essential details or recollect the key events. For example, a developer may forget the changes they performed for a programming task, or forget details such as a the blog post that was used for implementing a part of the task.&lt;/p&gt;
@@ -44,8 +47,11 @@
 &lt;p&gt;&lt;strong&gt;Recorder&lt;/strong&gt; is the idea that you should record your interactions with the code you’re trying to understand so that you can replay it later for recall or to share with others.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-recorder&quot;&gt;Why Recorder&lt;/h1&gt;
-&lt;p&gt;As found by &lt;a href=&quot;https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf&quot;&gt;Maalej et al&lt;/a&gt; (page 12):
-&amp;gt; 3 Developers interact with the application user interface to test whether the application behaves as expected and to find starting points for further inspection..&lt;/p&gt;
+&lt;p&gt;As found by &lt;a href=&quot;https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf&quot;&gt;Maalej et al&lt;/a&gt; (page 12):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;3 Developers interact with the application user interface to test whether the application behaves as expected and to find starting points for further inspection..&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;The idea, therefore, is to make it easy to record and replay developer interactions with the system under study to make comprehension easier.&lt;/p&gt;
 
@@ -86,8 +92,11 @@
         <description>&lt;p&gt;A userspace tracker for everything you do on your computer while you code.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-lilbro&quot;&gt;Why lilbro&lt;/h1&gt;
-&lt;p&gt;As found by &lt;a href=&quot;https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf&quot;&gt;Maalej et al&lt;/a&gt; (page 25):
-&amp;gt;…we asked developers whether they would share knowledge if their development environments would automatically capture it. … Overall, respondents are rather willing to share knowledge automatically. More than 85% of respondents would share the context of an encountered problem and actions performed to solve it. About 75% agreed to share other knowledge such as the goal of changing a particular piece of code or sources consulted while solving a particular problem. This kind of knowledge would facilitate program comprehension tasks.&lt;/p&gt;
+&lt;p&gt;As found by &lt;a href=&quot;https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf&quot;&gt;Maalej et al&lt;/a&gt; (page 25):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…we asked developers whether they would share knowledge if their development environments would automatically capture it. … Overall, respondents are rather willing to share knowledge automatically. More than 85% of respondents would share the context of an encountered problem and actions performed to solve it. About 75% agreed to share other knowledge such as the goal of changing a particular piece of code or sources consulted while solving a particular problem. This kind of knowledge would facilitate program comprehension tasks.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;lilbro&lt;/code&gt; takes this idea to the simplest and extreme manifestation - a tracker for everything that you could do on a computer so that you can review it later, reflect on it and potentially share it.&lt;/p&gt;
 
@@ -110,9 +119,12 @@
 
 &lt;h1 id=&quot;why-journal&quot;&gt;Why journal&lt;/h1&gt;
 
-&lt;p&gt;As found by &lt;a href=&quot;https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf&quot;&gt;Maalej et al&lt;/a&gt; (page 27, emphasis mine):
-&amp;gt; Context information also seems to play an important role when supplying the knowledge needs of developers in program comprehension scenarios. For instance, &lt;strong&gt;the context of the task in which the program was developed, including the rationale, the developer’s intention when writing the code, and the intended usage of the program, seems to be frequently needed by developers&lt;/strong&gt; (see Finding 4, Finding 20, Finding 23 and Figure 3).
+&lt;p&gt;As found by &lt;a href=&quot;https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf&quot;&gt;Maalej et al&lt;/a&gt; (page 27, emphasis mine):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Context information also seems to play an important role when supplying the knowledge needs of developers in program comprehension scenarios. For instance, &lt;strong&gt;the context of the task in which the program was developed, including the rationale, the developer’s intention when writing the code, and the intended usage of the program, seems to be frequently needed by developers&lt;/strong&gt; (see Finding 4, Finding 20, Finding 23 and Figure 3).
 &lt;strong&gt;Unfortunately, our findings reveal that context information is typically implicit and not captured.&lt;/strong&gt; For example, respondents rated missing context of documented knowledge about programs as one of the most frequent knowledge access barriers. Similarly, context switching overhead was rated as one of the most frequent knowledge sharing barriers.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;One possible strategy to overcome these barriers is an integrated, context-aware tool support for knowledge exchange: enabling a (semi-) automatically capturing and sharing of knowledge with its context by observing developers’ interactions&lt;/strong&gt; [Maalej et al. 2014]. Moreover, insights about the work patterns of developers from this and other studies (e.g., Murphy et al. [2006]; Parnin and Rugaber [2009]) can be used to build personalized tools that are aligned to the workflow of developers. For example a tool that detects the current high-level activity of developers from low-level actions can be used to provide only information that is relevant for the current problem [Roehm and Maalej 2012].&lt;/p&gt;
