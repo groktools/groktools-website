@@ -14,6 +14,7 @@ Store your thoughts about code - in the code!
 # Why journal
 
 As found by [Maalej et al](https://mobis.informatik.uni-hamburg.de/wp-content/uploads/2014/06/TOSEM-Maalej-Comprehension-PrePrint2.pdf) (page 27, emphasis mine):
+
 > Context information also seems to play an important role when supplying the knowledge needs of developers in program comprehension scenarios. For instance, **the context of the task in which the program was developed, including the rationale, the developer’s intention when writing the code, and the intended usage of the program, seems to be frequently needed by developers** (see Finding 4, Finding 20, Finding 23 and Figure 3).
 **Unfortunately, our findings reveal that context information is typically implicit and not captured.** For example, respondents rated missing context of documented knowledge about programs as one of the most frequent knowledge access barriers. Similarly, context switching overhead was rated as one of the most frequent knowledge sharing barriers.
 
