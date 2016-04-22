@@ -1,5 +1,8 @@
 # Introduction
 
+This is the website for the Groktools project by vinodkd.
+
+# Colophon
 This is a Jekyll-bootstrap based website. Credits for original templates are retained verbatim below.
 
 # [Start Bootstrap](http://startbootstrap.com/) - [Freelancer Jekyll Version](http://startbootstrap.com/template-overviews/freelancer/)
