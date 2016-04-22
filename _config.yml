@@ -12,8 +12,8 @@ description: > # this means to ignore newlines until "baseurl:"
    Tools to understand your code better
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://groktools.org" # the base hostname & protocol for your site
-github:
-  url: http://127.0.0.1:4000
+# github:
+#   url: http://127.0.0.1:4000
 
 # Social media profiles - feel free to add more here
 twitter_username:
