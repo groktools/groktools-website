@@ -36,4 +36,4 @@ However, things are not that easy in the real world:
 
 Check out the github repo for more information.
 
-Github: [https://github.com/groktools/git-authors](https://github.com/groktools/recorder)
+Github: [https://github.com/groktools/recorder](https://github.com/groktools/recorder)

@@ -18,6 +18,6 @@ As found by [Parnin](http://blog.ninlabs.com/2013/01/programmer-interrupted/):
 
 `flozone` takes this idea to the simplest manifestation - a toolbar that uses the familiar media player metaphor to help you remember what you're doing and help you tide through interruptions
 
-Github: [https://github.com/groktools/git-authors](https://github.com/groktools/flozone)
+Github: [https://github.com/groktools/flozone](https://github.com/groktools/flozone)
 
-Atom Package: [https://atom.io/packages/git-authors](https://atom.io/packages/flozone)
+Atom Package: [https://atom.io/packages/flozone](https://atom.io/packages/flozone)

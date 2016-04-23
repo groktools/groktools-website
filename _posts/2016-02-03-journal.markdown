@@ -22,6 +22,6 @@ As found by [Maalej et al](https://mobis.informatik.uni-hamburg.de/wp-content/up
 
 This tool latches onto the idea of a context-aware tool that captures and stores the knowledge of the developer **as the code is built** for use by both the primary author and others later.
 
-Github: [https://github.com/groktools/git-authors](https://github.com/groktools/journal)
+Github: [https://github.com/groktools/journal](https://github.com/groktools/journal)
 
-Atom Package: [https://atom.io/packages/git-authors](https://atom.io/packages/journal)
+Atom Package: [https://atom.io/packages/journal](https://atom.io/packages/journal)

@@ -6,8 +6,8 @@
 </description>
     <link>http://groktools.org/</link>
     <atom:link href="http://groktools.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Apr 2016 09:41:53 -0500</pubDate>
-    <lastBuildDate>Fri, 22 Apr 2016 09:41:53 -0500</lastBuildDate>
+    <pubDate>Sat, 23 Apr 2016 16:56:09 -0500</pubDate>
+    <lastBuildDate>Sat, 23 Apr 2016 16:56:09 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -27,9 +27,9 @@
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;flozone&lt;/code&gt; takes this idea to the simplest manifestation - a toolbar that uses the familiar media player metaphor to help you remember what you’re doing and help you tide through interruptions&lt;/p&gt;
 
-&lt;p&gt;Github: &lt;a href=&quot;https://github.com/groktools/flozone&quot;&gt;https://github.com/groktools/git-authors&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/groktools/flozone&quot;&gt;https://github.com/groktools/flozone&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Atom Package: &lt;a href=&quot;https://atom.io/packages/flozone&quot;&gt;https://atom.io/packages/git-authors&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Atom Package: &lt;a href=&quot;https://atom.io/packages/flozone&quot;&gt;https://atom.io/packages/flozone&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 06 Feb 2016 14:08:10 -0600</pubDate>
         <link>http://groktools.org/tools/2016/02/06/flozone.html</link>
@@ -76,7 +76,7 @@
 
 &lt;p&gt;Check out the github repo for more information.&lt;/p&gt;
 
-&lt;p&gt;Github: &lt;a href=&quot;https://github.com/groktools/recorder&quot;&gt;https://github.com/groktools/git-authors&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/groktools/recorder&quot;&gt;https://github.com/groktools/recorder&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 Feb 2016 14:08:10 -0600</pubDate>
         <link>http://groktools.org/tools/2016/02/05/recorder.html</link>
@@ -100,7 +100,7 @@
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;lilbro&lt;/code&gt; takes this idea to the simplest and extreme manifestation - a tracker for everything that you could do on a computer so that you can review it later, reflect on it and potentially share it.&lt;/p&gt;
 
-&lt;p&gt;Github: &lt;a href=&quot;https://github.com/groktools/lilbro&quot;&gt;https://github.com/groktools/git-authors&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/groktools/lilbro&quot;&gt;https://github.com/groktools/lilbro&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 04 Feb 2016 14:08:10 -0600</pubDate>
         <link>http://groktools.org/tools/2016/02/04/lilbro.html</link>
@@ -132,9 +132,9 @@
 
 &lt;p&gt;This tool latches onto the idea of a context-aware tool that captures and stores the knowledge of the developer &lt;strong&gt;as the code is built&lt;/strong&gt; for use by both the primary author and others later.&lt;/p&gt;
 
-&lt;p&gt;Github: &lt;a href=&quot;https://github.com/groktools/journal&quot;&gt;https://github.com/groktools/git-authors&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/groktools/journal&quot;&gt;https://github.com/groktools/journal&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Atom Package: &lt;a href=&quot;https://atom.io/packages/journal&quot;&gt;https://atom.io/packages/git-authors&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Atom Package: &lt;a href=&quot;https://atom.io/packages/journal&quot;&gt;https://atom.io/packages/journal&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 03 Feb 2016 14:08:10 -0600</pubDate>
         <link>http://groktools.org/tools/2016/02/03/journal.html</link>
